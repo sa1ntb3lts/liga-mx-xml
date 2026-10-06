@@ -78,7 +78,7 @@ Determinar si cada dato se representa como elemento o atributo (*Completar la ta
   | ID del partido     |           atributo        |      Puede identificar cada partido         |
   | Equipo local       |        atributo           |       Puede formar parte de un elemento equipo        |
   | Equipo visitante   |        atributo           |      Puede formar parte de un elemento equipo         |
-  | Goles              |          atributo         |      Separar          |
+  | Goles              |          elemento         |      Separa los goles de los equipos pero no necesita atributo          |
   | Estadio            |          elemento         |     Informacion general  del partido        |
   | Estado del partido |         elemento          |      Informacion general  del partido       |
   | Posesión           |        elemento           |       Informacion general   del partido     |
@@ -162,12 +162,12 @@ Determine las cardinalidades y completar la siguiente tabla:
 
 | Regla                                     | Expresión DTD |
 |-------------------------------------------|---------------|
-| Una liga contiene una o más jornadas      |               |
-| Una jornada contiene uno o más partidos   |               |
-| Un partido tiene exactamente un local     |               |
-| Un partido tiene exactamente un visitante |               |
-| Una estadística opcional                  |               |
-| Puede haber cero o más tarjetas           |               |
+| Una liga contiene una o más jornadas      |      +         |
+| Una jornada contiene uno o más partidos   |      +         |
+| Un partido tiene exactamente un local     |      ?         |
+| Un partido tiene exactamente un visitante |      ?         |
+| Una estadística opcional                  |      |         |
+| Puede haber cero o más tarjetas           |      *         |
 
 
 Registrar los cambios en el repositorio.
