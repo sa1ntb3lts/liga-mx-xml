@@ -1,1 +1,14 @@
+<!ELEMENT partido (fecha, equipo, equipo)>
+<!ATTLIST partido id ID #REQUIRED>
 
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT equipo (nombre, goles, estadisticas)>
+<!ATTLIST equipo tipo (local|visitante) #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT goles (#PCDATA)>
+<!ELEMENT estadisticas (tiros, faltas, tarjetas)>
+<!ELEMENT tiros (#PCDATA)>
+<!ELEMENT faltas (#PCDATA)>
+<!ELEMENT tarjetas (#PCDATA)>
