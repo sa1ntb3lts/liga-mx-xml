@@ -188,7 +188,7 @@ Definir los atributos necesarios para cada elemento mediante:
 Considerar `#REQUIRED`, `#IMPLIED` e `ID`.
 
 **Pregunta:** Si cada partido tiene un identificador `P001`, `P002`,
-etc., ¿qué ventaja tendría declararlo como `ID` en lugar de `CDATA`?
+etc., ¿qué ventaja tendría declararlo como `ID` en lugar de `CDATA`? Porque CDATA no tiene restricciones como ID, asi que seria menos apropiado para una id.
 
 Registrar los cambios en el repositorio.
 ``` bash
