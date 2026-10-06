@@ -37,15 +37,15 @@ partido e identifique los datos necesarios.
 
 ### Preguntas de análisis
 
-1.  ¿Cuál debería ser el elemento raíz?
-2.  ¿Una jornada puede contener varios partidos?
-3.  ¿Cada partido debe contener exactamente dos equipos?
-4.  ¿Cómo distinguirían al equipo local del visitante?
+1.  ¿Cuál debería ser el elemento raíz? Jornada
+2.  ¿Una jornada puede contener varios partidos? Si
+3.  ¿Cada partido debe contener exactamente dos equipos? Si, local y visitante.
+4.  ¿Cómo distinguirían al equipo local del visitante? Anadirle un atributo al elemento equipo.
 5.  ¿El marcador debe representarse como un solo dato o separar los
-    goles?
-6.  ¿Las estadísticas pertenecen al partido o a cada equipo?
-7.  ¿Qué datos son obligatorios?
-8.  ¿Cuáles podrían ser opcionales?
+    goles? Separarlos para ver los goles de cada equipo.
+6.  ¿Las estadísticas pertenecen al partido o a cada equipo? Equipo.
+7.  ¿Qué datos son obligatorios? fecha, equipos, estadio, marcador, competencia, estado.
+8.  ¿Cuáles podrían ser opcionales? pues las estadisticas.
 
 ## 4. Actividad 2 - Diseñar el modelo conceptual
 
