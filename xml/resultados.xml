@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE partido SYSTEM "/dtd/resultados.dtd">
+<!DOCTYPE partido SYSTEM "../dtd/resultados.dtd">
 <partido id="914">
     <fecha>17-10-2024</fecha>
     <equipo tipo="local">
