@@ -239,12 +239,12 @@ Complear la siguiente tabla:
 
 | Prueba                     | ¿Bien formado? | ¿Válido? | Error detectado |
 |----------------------------|----------------|----------|-----------------|
-| Falta visitante            |                |          |                 |
-| Dos locales                |                |          |                 |
-| Orden incorrecto           |                |          |                 |
-| Falta atributo obligatorio |                |          |                 |
-| ID duplicado               |                |          |                 |
-| Elemento desconocido       |                |          |                 |                      
+| Falta visitante            |        Si        |    No      |     No concuerda con la estructura del dtd            |
+| Dos locales                |       Si         |     Si     |      Si porque el operador no condiciona a que solo deba de haber un equipo local           |
+| Orden incorrecto           |        Si        |     No     |       No concuerda con la estructura del dtd          |
+| Falta atributo obligatorio |       Si         |     No     |       Falta el id          |
+| ID duplicado               |         Si       |     No     |       ID repetido, debe ser unico          |
+| Elemento desconocido       |         Si       |     No     |        No declarado en el dtd         |                      
 
 > **XML bien formado ≠ XML válido**
 
