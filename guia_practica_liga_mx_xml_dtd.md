@@ -73,16 +73,16 @@ Determinar si cada dato se representa como elemento o atributo (*Completar la ta
 
   | Información        | Elemento/Atributo | Justificación |
   |--------------------|-------------------|---------------|
-  | Jornada            |                   |               |
-  | Fecha              |                   |               |
-  | ID del partido     |                   |               |
-  | Equipo local       |                   |               |
-  | Equipo visitante   |                   |               |
-  | Goles              |                   |               |
-  | Estadio            |                   |               |
-  | Estado del partido |                   |               |
-  | Posesión           |                   |               |
-  | Tarjetas           |                   |               |
+  | Jornada            |        elemento           |       Elemento root        |
+  | Fecha              |        elemento           |       Es informacion general del partido       |
+  | ID del partido     |           atributo        |      Puede identificar cada partido         |
+  | Equipo local       |        atributo           |       Puede formar parte de un elemento equipo        |
+  | Equipo visitante   |        atributo           |      Puede formar parte de un elemento equipo         |
+  | Goles              |          atributo         |      Separar          |
+  | Estadio            |          elemento         |     Informacion general  del partido        |
+  | Estado del partido |         elemento          |      Informacion general  del partido       |
+  | Posesión           |        elemento           |       Informacion general   del partido     |
+  | Tarjetas           |         elemento          |       Informacion general del partido       |
 
 Registrar los cambios en el repositorio.
 ``` bash
