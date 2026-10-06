@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <partido id="914">
     <fecha>17-10-2024</fecha>
-    <equipo tipo="local">America</equipo>
-    <equipo tipo="visitante">Chibas</equipo>
-    <marcador>
-        <local>2</local>
-        <visitante>1</visitante>
-    </marcador>
+    <equipo tipo="local">
+        <nombre>America</nombre>
+        <goles>2</goles>
+        <estadisticas>
+            <tiros>10</tiros>
+            <faltas>8</faltas>
+            <tarjetas>2</tarjetas>
+        </estadisticas>
+    </equipo>
+
+    <equipo tipo="visitante">
+        <nombre>Chivas</nombre>
+        <goles>1</goles>
+        <estadisticas>
+            <tiros>7</tiros>
+            <faltas>10</faltas>
+            <tarjetas>3</tarjetas>
+        </estadisticas>
+    </equipo>
 </partido>
