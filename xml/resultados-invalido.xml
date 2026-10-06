@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partido SYSTEM "../dtd/resultados.dtd">
+<partido id="914">
+    <fecha>17-10-2024</fecha>
+
+    <arbitro>Juan</arbitro>
+    
+    <equipo tipo="local">
+        <nombre>America</nombre>
+        <goles>2</goles>
+        <estadisticas>
+            <tiros>10</tiros>
+            <faltas>8</faltas>
+            <tarjetas>2</tarjetas>
+        </estadisticas>
+    </equipo>
+
+    <equipo tipo="visitante">
+        <nombre>Chivas</nombre>
+        <goles>1</goles>
+        <estadisticas>
+            <tiros>7</tiros>
+            <faltas>10</faltas>
+            <tarjetas>3</tarjetas>
+        </estadisticas>
+    </equipo>
+</partido>
